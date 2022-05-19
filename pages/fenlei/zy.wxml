@@ -1,0 +1,43 @@
+<scroll-view scroll-y style="height: 100%;"><view class="tuijian">
+    <view class="tuijian1"></view>
+        <view class="tuijian2">
+          <view class="neirong" bindtap="aaa" data-id='{{44}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2607628222.webp" />
+              <view>青春环游记</view>
+            </view>             
+            <view class="neirong" bindtap="aaa" data-id='{{45}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2634469967.webp" />
+              <view>王牌对王牌</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{11}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2675827902.webp" />
+              <view>脱口秀大会</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{46}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2696070311.webp" />
+              <view>奔跑吧黄河篇</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{60}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2497721919.webp" />
+              <view>喜剧总动员</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{47}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2638597544.webp" />
+              <view>极限挑战</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{48}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2630403566.webp" />
+              <view>吐槽大会</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{49}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2722426882.webp" />
+              <view>令人心动的offer</view>
+            </view>
+            <view class="neirong" bindtap="aaa" data-id='{{50}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2700111546.webp" />
+              <view>导演请指教</view>
+            </view>
+        </view>
+</view>
+</scroll-view>
+

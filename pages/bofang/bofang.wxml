@@ -1,0 +1,9 @@
+<scroll-view class="qb" scroll-y>
+<view>
+<txv-video vid="{{play.dizi}}" playerid="txv1"></txv-video>
+<view class="jianjieq">
+            <view class="wenzi">简介</view>
+            <view class="neirong1">{{play.jianjie}}</view>
+</view>
+</view>
+</scroll-view>

@@ -1,0 +1,43 @@
+<scroll-view scroll-y style="height: 100%;">
+<view class="tuijian">
+    <view class="tuijian1"></view>
+        <view class="tuijian2">
+          <view class="neirong" bindtap="aaa" data-id='{{51}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1014542496.webp" />
+              <view>拯救大兵瑞恩</view>
+            </view>             
+            <view class="neirong" bindtap="aaa" data-id='{{8}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.webp" />
+              <view>美丽人生</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{52}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p492406163.webp" />
+              <view>辛德拉的名单</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{53}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p792376093.webp" />
+              <view>钢琴家</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{54}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1473670352.webp" />
+              <view>穿条纹睡衣的男孩</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{55}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2398141939.webp" />
+              <view>血战钢锯岭</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{56}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2587146023.webp" />
+              <view>1917</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{57}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1322247572.webp" />
+              <view>金陵十三钗</view>
+            </view>
+            <view class="neirong" bindtap="aaa" data-id='{{58}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p798398494.webp" />
+              <view>父辈的旗帜</view>
+            </view>
+        </view>
+</view>
+</scroll-view>

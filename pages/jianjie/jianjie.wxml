@@ -1,0 +1,19 @@
+<scroll-view scroll-y><view class="jianjie">
+        <view class="tupan">
+            <image src="{{play.tupian}}"></image>
+        </view>     
+        <view class="div"> 
+            <view>剧名：{{play.mz}}</view>
+            <view>演员：{{play.yanyuan}}</view>
+            <view>上映时间:{{play.sj}}</view>
+            <view>剧情：{{play.jq}}</view>
+    </view>
+        <view class="guankan">
+            <button bindtap="aaa" data-id="{{play.id}}">立即观看</button>
+        </view>
+        <view class="jianjieq">
+            <view class="wenzi">简介</view>
+            <view class="neirong1">{{play.jianjie}}</view>
+        </view>
+</view>
+</scroll-view>

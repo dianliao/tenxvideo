@@ -1,0 +1,85 @@
+<view class="qwe">
+<swiper class="lunbo" autoplay>
+    <swiper-item>
+    <image src="https://img1.doubanio.com/view/photo/m/public/p2675442967.webp" bindtap="aaa" data-id='{{0}}'></image>
+    </swiper-item>
+    <swiper-item>
+    <image src="/a/tuijian/shikong.jpg" bindtap="aaa" data-id='{{1}}'></image>
+    </swiper-item>
+    <swiper-item>
+    <image src="/a/tuijian/wusuo.jpg" bindtap="aaa" data-id='{{2}}'></image>
+    </swiper-item>
+</swiper>
+<view class="tuijian">
+    <view class="tuijian1">热门推荐</view>
+        <view class="tuijian2">
+            <view class="neirong" bindtap="aaa" data-id='{{3}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp" />
+              <view >肖申克的救赎</view>
+            </view>   
+            <view class="neirong" bindtap="aaa" data-id='{{4}}'>
+              <image src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.webp" />
+              <view>霸王别姬</view>
+            </view>   
+            <view class="neirong" bindtap="aaa" data-id='{{5}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2372307693.webp" />
+              <view>阿甘正传</view>
+            </view>   
+            <view class="neirong" bindtap="aaa" data-id='{{6}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p511118051.webp" />
+              <view>这个杀手不太冷</view>
+            </view>  
+            <view class="neirong" bindtap="aaa" data-id='{{7}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p457760035.webp" />
+              <view>泰坦尼克号</view>
+            </view>  
+            <view class="neirong" bindtap="aaa" data-id='{{8}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.webp" />
+              <view>美丽人生</view>
+            </view>  
+            <view class="neirong" bindtap="aaa" data-id='{{9}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.webp" />
+              <view>千与千寻</view>
+            </view>  
+            <view class="neirong" bindtap="aaa" data-id='{{52}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p492406163.webp" />
+              <view>辛德拉的名单</view>
+            </view>  
+            <view class="neirong" bindtap="aaa" data-id='{{10}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2616355133.webp" />
+              <view>盗梦空间</view>
+            </view>  
+        </view>
+        <view class="tuijian1">综艺精选</view>
+        <view class="tuijian2">
+            <view class="neirong" bindtap="aaa" data-id='{{11}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2675827902.webp" />
+              <view>脱口秀大会第四季</view>
+            </view>    
+            <view class="neirong" bindtap="aaa" data-id='{{12}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2653632288.webp" />
+              <view>嗨放派</view>
+            </view>   
+            <view class="neirong" bindtap="aaa" data-id='{{12}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2677299071.webp" />
+              <view>德云斗笑社</view>
+            </view>   
+        </view>
+        <view class="tuijian1">纪录片</view>
+        <view class="tuijian2">
+            <view class="neirong" bindtap="aaa" data-id='{{13}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2675293058.webp" />
+              <view>119请回答</view>
+            </view>    
+            <view class="neirong" bindtap="aaa" data-id='{{14}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2676216031.webp" />
+              <view>知味新疆</view>
+            </view>   
+            <view class="neirong" bindtap="aaa" data-id='{{15}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2723112616.webp" />
+              <view>火线救援</view>
+            </view>   
+        </view>
+    </view>
+    
+</view>

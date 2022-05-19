@@ -1,0 +1,43 @@
+<scroll-view scroll-y style="height: 100%;"><view class="tuijian">
+    <view class="tuijian1"></view>
+        <view class="tuijian2">
+          <view class="neirong" bindtap="aaa" data-id='{{5}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2372307693.webp" />
+              <view>阿甘正传</view>
+            </view>             
+            <view class="neirong" bindtap="aaa" data-id='{{38}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2614500649.webp" />
+              <view>疯狂动物城</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{39}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2263408369.webp" />
+              <view>摩登时代</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{40}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.webp" />
+              <view>触不可及</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{17}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2189265085.webp" />
+              <view>罗马假日</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{41}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1960167314.webp" />
+              <view>大独裁者</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{42}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2620392435.webp" />
+              <view>菊次郎的夏天</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{20}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p854757687.webp" />
+              <view>幸福终点站</view>
+            </view>
+            <view class="neirong" bindtap="aaa" data-id='{{43}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2614500883.webp" />
+              <view>超能陆战队</view>
+            </view>
+        </view>
+</view>
+</scroll-view>
+

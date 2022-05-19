@@ -1,0 +1,58 @@
+
+page {
+  display: flex;
+  flex-direction:initial;
+  color: #ccc;
+  height: 100%;
+}
+
+.tab-item.active {
+  color: #887d7d;
+  border-bottom-color: #eeeeee;
+}
+.tab-item {
+  flex: 1;
+  font-size: 10pt;
+  text-align: center;
+  line-height: 72rpx;
+  border-bottom: 6rpx solid #eee;
+}
+.content {
+  flex: 1;
+}
+.content > swiper {
+  height: 100%;
+}
+.player {
+  background: #222;
+  border-top: 1px solid #252525;
+  height: 112rpx;
+}
+.content-info {
+  height: 100%;
+}
+.tuijian {
+  font-size: 11pt;
+  margin-bottom: 20rpx;
+}
+.tuijian > .tuijian1 {
+  margin: 20rpx 35rpx;
+  text-align: center;
+}
+.tuijian > .tuijian2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20rpx;
+}
+.tuijian > .tuijian2 > .neirong {
+  flex: 1;
+  text-align: center;
+}
+.tuijian >.tuijian2 > .neirong > image {
+  display: block;
+  width: 200rpx;
+  height: 200rpx;
+  margin: auto;
+  border-radius: 10rpx;
+  border: 1rpx solid rgb(63, 63, 63);
+}

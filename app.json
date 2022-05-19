@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/wode/wode",
+        "pages/tuijian/tuijian",
+        "pages/fenlei/fenlei",
+        "pages/bofang/bofang"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "简介",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#2f2f2f",
+        "selectedColor": "#e65e44",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "list": [
+            {
+                "navigationBarTitleText": "推荐",
+                "text": "推荐",
+                "iconPath": "/a/tuijian1.jpg",
+                "selectedIconPath": "/a/tuijian2.jpg",
+                "pagePath": "pages/index/index"
+            },
+            {
+                "navigationBarTitleText": "分类",
+                "text": "分类",
+                "iconPath": "/a/fenlei.jpg",
+                "selectedIconPath": "/a/fenlei1.jpg",
+                "pagePath": "pages/fenlei/fenlei"
+            },
+            {
+                "navigationBarTitleText": "我的",
+                "text": "我的",
+                "iconPath": "/a/wode1.jpg",
+                "selectedIconPath": "/a/wode.jpg",
+                "pagePath": "pages/wode/wode"
+            }
+        ]
+    },
+    "plugins": {
+        "tencentvideo": {
+            "version": "2.1.1",
+            "provider": ""
+        }
+    },
+    "sitemapLocation": "sitemap.json"
+}

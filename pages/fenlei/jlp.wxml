@@ -1,0 +1,43 @@
+<scroll-view scroll-y style="height: 100%;"><view class="tuijian">
+    <view class="tuijian1"></view>
+        <view class="tuijian2">
+          <view class="neirong" bindtap="aaa" data-id='{{30}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2628862799.webp" />
+              <view>完美星球</view>
+            </view>             
+            <view class="neirong" bindtap="aaa" data-id='{{31}}'>
+              <image src="https://puui.qpic.cn/vcover_vt_pic/0/mzc00200rf79mso1596447322328/220" />
+              <view>自然世界</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{32}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2594840365.webp" />
+              <view>荒野间谍</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{33}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2561520626.webp" />
+              <view>行星</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{59}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2670844408.webp" />
+              <view>企鹅家族</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{34}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2537688397.webp" />
+              <view>王朝</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{35}}'>
+              <image src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2515099700.webp" />
+              <view>奇迹之地</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{36}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2544388666.webp" />
+              <view>蓝色星球</view>
+            </view>
+            <view class="neirong" bindtap="aaa" data-id='{{37}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2410512421.webp" />
+              <view>地球脉动</view>
+            </view>
+        </view>
+</view></scroll-view>
+
+

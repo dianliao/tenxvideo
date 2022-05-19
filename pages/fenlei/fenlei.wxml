@@ -1,0 +1,31 @@
+
+<view class="tab">
+    <view class="tab-item {{tab==0?'active':''}}" bindtap="changeItem" data-item="0">战争电影</view>
+    <view class="tab-item {{tab==1?'active':''}}" bindtap="changeItem" data-item="1">喜剧电影</view>
+    <view class="tab-item {{tab==2?'active':''}}" bindtap="changeItem" data-item="2">爱情电影</view>
+    <view class="tab-item {{tab==3?'active':''}}" bindtap="changeItem" data-item="3">动作电影</view>
+    <view class="tab-item {{tab==4?'active':''}}" bindtap="changeItem" data-item="4">综艺精选</view>
+    <view class="tab-item {{tab==5?'active':''}}" bindtap="changeItem" data-item="5">纪录片</view>
+</view>
+<view class="content">
+  <swiper current="{{item}}" bindchange="changeTab">
+        <swiper-item>
+            <include src="zz.wxml" />
+        </swiper-item>
+        <swiper-item>
+            <include src="xj.wxml" />
+        </swiper-item>
+        <swiper-item>
+            <include src="aq.wxml" />
+        </swiper-item>
+        <swiper-item>
+            <include src="dz.wxml" />
+        </swiper-item>
+        <swiper-item>
+            <include src="zy.wxml" />
+        </swiper-item>
+        <swiper-item>
+            <include src="jlp.wxml" />
+        </swiper-item>
+    </swiper>
+</view>

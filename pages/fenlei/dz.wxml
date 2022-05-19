@@ -1,0 +1,44 @@
+<scroll-view scroll-y style="height: 100%;">
+<view class="tuijian">
+
+    <view class="tuijian1"></view>
+        <view class="tuijian2">
+          <view class="neirong" bindtap="aaa" data-id='{{2}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2640615589.jpg" />
+              <view>小人物</view>
+            </view>             
+            <view class="neirong" bindtap="aaa" data-id='{{22}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2673412189.jpg" />
+              <view>怒火重案</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{23}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2577578115.jpg" />
+              <view>叶问4：完结篇</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{24}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2642842673.jpg" />
+              <view>人之怒</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{25}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2625777429.jpg" />
+              <view>除暴</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{26}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2612061299.jpg" />
+              <view>信条</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{27}}'>
+              <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2678875868.jpg" />
+              <view>明日之战</view>
+            </view> 
+            <view class="neirong" bindtap="aaa" data-id='{{28}}'>
+              <image src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2634360594.jpg" />
+              <view>正义联盟</view>
+            </view>
+            <view class="neirong" bindtap="aaa" data-id='{{29}}'>
+              <image src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2634025511.jpg" />
+              <view>扫黑决战</view>
+            </view>
+        </view>
+</view>
+</scroll-view>

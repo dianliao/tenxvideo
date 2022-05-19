@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="userinfo">
+    <view class="touxiang">
+        <image  src="{{userInfo.avatarUrl}}"mode="cover"></image>
+        <view class="username">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+</view>
+    <view class="k">
+      <view>观看记录</view>
+      <view>我的VIP</view>
+      <view>我的收藏</view>
+      <view>隐私权限</view>
+  <button wx:if="{{!hasUserInfo}}" bindtap="getUserInfo" type="primary" size="default"> 登录 </button>
+</view>
